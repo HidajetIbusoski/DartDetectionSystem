@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.spec.bak
+
+# Data (local to each user)
+data/darts.db
+data/calibration/
+
+# Generated assets
+assets/sounds/*.wav
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# PyInstaller
+*.manifest
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Virtual env
+venv/
+.env/
